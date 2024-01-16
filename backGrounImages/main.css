@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+ font-size: 100%;   
+}
+
+.Title{
+    font-style: inherit;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    position: relative;
+    color: gold;
+}
+
+.box{
+    height: 500px;
+    background-image: url("images/dangTien.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#header{
+    background-color: rgb(209, 132, 16);
+    height: 50px;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+.titleContent{
+    margin: auto;
+}
+
+.screen{
+    height: 4000px;
+    background-image: linear-gradient(0,#333,#5c4646);
+}
+
+.content{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: aqua;
+}
+
+.download{
+    color: chartreuse;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.downloadButton{
+    font-size: 1.2rem;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.downloadButton #button{
+    padding: 5px;
+    background-color: red;
+    color: chocolate;
+    border: solid;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+
+#button:hover{
+    background-color: orange;
+}
+
+.imagesArea{
+    margin: 30px 0 0 0;
+    display: flex;
+}
+
+.images{
+    margin: auto;
+    border: solid;
+}
+
+.one, .two, .three{
+    display: flex;
+}
+
+.oneText{
+    position: absolute;
+    margin: 180px 0 0 12%;
+}
+
+.twoText{
+    position: absolute;
+    margin: 180px 0 0 47%;
+}
+
+.threeText{
+    position: absolute;
+    margin: 180px 0 0 81%;
+}
